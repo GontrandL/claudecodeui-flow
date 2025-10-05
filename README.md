@@ -41,14 +41,50 @@ A desktop and mobile UI for [Claude Code](https://docs.anthropic.com/en/docs/cla
 
 ## Features
 
-- **Responsive Design** - Works seamlessly across desktop, tablet, and mobile so you can also use Claude Code from mobile 
+- **Responsive Design** - Works seamlessly across desktop, tablet, and mobile so you can also use Claude Code from mobile
 - **Interactive Chat Interface** - Built-in chat interface for seamless communication with Claude Code or Cursor
 - **Integrated Shell Terminal** - Direct access to Claude Code or Cursor CLI through built-in shell functionality
 - **File Explorer** - Interactive file tree with syntax highlighting and live editing
-- **Git Explorer** - View, stage and commit your changes. You can also switch branches 
+- **Git Explorer** - View, stage and commit your changes. You can also switch branches
 - **Session Management** - Resume conversations, manage multiple sessions, and track history
 - **TaskMaster AI Integration** *(Optional)* - Advanced project management with AI-powered task planning, PRD parsing, and workflow automation
 - **Model Compatibility** - Works with Claude Sonnet 4, Opus 4.1, and GPT-5
+
+## 🌊 Claude-Flow Integration (In Development)
+
+> **This fork** extends ClaudeCodeUI with **[Claude-Flow](https://github.com/ruvnet/claude-flow)** integration for advanced AI swarm orchestration.
+
+### Planned Features
+
+- **🐝 Swarm Orchestration** - Coordinate multiple AI agents working in parallel
+- **🧠 Hive-Mind Wizard** - Visual interface for configuring multi-agent workflows
+- **🤖 Agent Spawner** - Dynamic agent creation with specialized roles
+- **💾 Memory Viewer** - Browse SQLite history (`.swarm/memory.db`) with timeline view
+- **🔄 Workflow Replay** - Replay previous swarm executions step-by-step
+- **📊 Real-time Monitoring** - Live terminal output and agent status tracking
+
+### Project Planning
+
+This integration is being developed systematically using a 5-milestone approach:
+
+1. **Discovery & Validation** (Week 1) - Technical feasibility assessment
+2. **Fork & Architecture** (Week 2) - Backend switcher design
+3. **Core Features** (Weeks 3-4) - Swarm, Hive-Mind, Agent spawning
+4. **Polish & UX** (Week 5) - Dark mode, accessibility, error handling
+5. **Documentation & Release** (Week 6) - Docs, tests, v1.0.0-beta
+
+**Full planning details**: See [claudeflow-ui-integration project](https://github.com/GontrandL/claudeflow-ui-integration) (private planning repo)
+
+**Current Status**: 📋 Milestone 1 - Discovery Phase
+
+### Why This Fork?
+
+ClaudeCodeUI provides an excellent foundation for CLI-based AI assistants. This fork extends that capability to support:
+- **Multi-agent workflows** (not just single Claude/Cursor sessions)
+- **Persistent memory** across agent interactions
+- **Complex orchestration** with swarms and hierarchical coordination
+
+For standard Claude Code or Cursor usage, the [original ClaudeCodeUI](https://github.com/siteboon/claudecodeui) is recommended.
 
 
 ## Quick Start
